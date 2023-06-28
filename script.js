@@ -24,9 +24,9 @@ function returnMovie(url) {
          const title = document.createElement("h3");
 
          title.innerHTML = `${element.title}`;
-         IMG_PATH.src = IMG_PATH + element.poster_path;
+         image.src = IMG_PATH + element.poster_path;
 
-         image.appendChild(image);
+         div_card.appendChild(image);
          div_card.appendChild(title);
          column.appendChild(div_card);
          row.appendChild(column);
