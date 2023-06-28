@@ -26,7 +26,7 @@ function returnMovie(url) {
          title.innerHTML = `${element.title}`;
          IMG_PATH.src = IMG_PATH + element.poster_path;
 
-         div_card.appendChild(image);
+         image.appendChild(image);
          div_card.appendChild(title);
          column.appendChild(div_card);
          row.appendChild(column);
